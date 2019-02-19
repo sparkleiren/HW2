@@ -1,0 +1,35 @@
+body {
+	background-image: url(../images/background.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+nav {font-size: 20px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	
+}
+nav a {
+	color: #FFF;
+}
+header {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+h1 {
+	font-size: 28px;
+	color: white;
+	font-weight: 600;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+h3 {
+	font-size: 15px;
+	color: white;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+img {
+	border-radius: 10px;
+}
