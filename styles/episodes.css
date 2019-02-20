@@ -3,6 +3,7 @@ body {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
+	width: 1000px;
 }
 nav {
 	font-size: 20px;
@@ -36,13 +37,14 @@ h3 {
 }
 img {
 	border-radius: 10px;
-}
-footer {
-	color: white;
+	text-align: center;
 }
 p {
 	color: white;
 }
-td {
+table {
+	color: white;
+}
+h3 a {
 	color: white;
 }
