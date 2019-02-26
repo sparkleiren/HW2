@@ -3,38 +3,69 @@
 <head>
 	<meta charset="utf-8">
 	<title>index.html</title>
-	<link rel="stylesheet" href="styles/index.css">
+	<link rel="stylesheet" type="text/css" href="styles/index.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
-<body style="width:1000px;">
-	<header><a href="index.html"><img src="images/logo.png"></a>
-	<nav><a href="pages/index.html">Главная</a>
+<body>
+	<header>
+		<a href="index.html"><img src="images/logo.png"></a>
+		<nav>
+			<a href="pages/index.html">Главная</a>
 			<a href="pages/episodes.html">Эпизоды</a>
 			<a href="pages/heroes.html">Герои</a>
 			<a href="pages/map.html">Карта галактики</a>
 			<a href="pages/stories.html">Истории</a></p>
-	</nav>
+		</nav>
 	</header>
-<main>
-	<h1>Эпизод VII</h1>
-	<img src="images/main.jpg" height: 500px;" title="Самая главная картинка">
-	<table>
-	<tr><td width="410"><img src="images/kadr1.jpg" style="width: 400px;" title="Встали и стоят смотрят"></td>
-		<td width="410"><img src="images/kadr3.jpg" style="width: 400px;" title="Настоящий накал страстей!"></td>
-		<td width="410"><img src="images/kadr4.jpg" style="width: 400px;" title="Вот они и встретились"></td>
-	</tr>
-	<tr><td>Встали и стоят смотрят. Как им дальше жить — этого еще не знает никто...</td>
-		<td>Он замахнулся своим мечом и готов к атаке. Настоящий накал страстей!</td>
-		<td>Вот они и встретились. Сейчас всё сделают, и фильм закончится.</td>
-	</tr>
-	</table><br>
-	<a href="https://www.youtube.com/watch?v=k5V0OJTwwq8" target="_blank"><button>Смотреть</button></a>
-	<h3>Кадры из фильма</h3>
-	<img src="images/kadr1.jpg" title="Кадр из фильма 1">
-	<img src="images/kadr3.jpg" title="Кадр из фильма 2">
-	<img src="images/kadr4.jpg" title="Кадр из фильма 3">
-</main>
-<hr>
-<footer>Copyright &copy; 2018 Star Wars<br>
-Design by Iren</footer>
+	<main>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h1>Эпизод VII</h1>
+					<img src="images/main.jpg" title="Самая главная картинка">
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-4">
+					<img src="images/kadr1.jpg" title="Встали и стоят смотрят"><br>
+					Встали и стоят смотрят. Как им дальше жить — этого еще не знает никто...<br>
+					<a href="https://www.youtube.com/watch?v=k5V0OJTwwq8" target="_blank"><button>Смотреть</button></a>
+				</div>
+				<div class="col-4">
+					<img src="images/kadr3.jpg" title="Настоящий накал страстей!"><br>
+					Он замахнулся своим мечом и готов к атаке. Настоящий накал страстей!<br>
+					<a href="https://www.youtube.com/watch?v=k5V0OJTwwq8" target="_blank"><button>Смотреть</button></a>
+				</div>
+				<div class="col-4">
+					<img src="images/kadr4.jpg" title="Вот они и встретились"><br>
+					Вот они и встретились. Сейчас всё сделают, и фильм закончится.<br>
+					<a href="https://www.youtube.com/watch?v=k5V0OJTwwq8" target="_blank"><button>Смотреть</button></a>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h3>Кадры из фильма</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-3"><img src="images/kadr11.jpg" title="Кадр из фильма 1">
+				</div>
+				<div class="col-3"><img src="images/kadr22.jpg" title="Кадр из фильма 2">
+				</div>
+				<div class="col-3"><img src="images/kadr44.jpg" title="Кадр из фильма 3">
+				</div>
+				<div class="col-3"><img src="images/kadr33.jpg" title="Кадр из фильма 4">
+				</div>
+			</div>
+		</div>
+	</main>
+	<hr>
+	<footer>Copyright &copy; 2018 Star Wars<br>
+	Design by Iren</footer>
 </body>
 </html>
