@@ -41,6 +41,7 @@ img {
 footer {
 	color: white;
 	text-align: center;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
 }
 /* Цвет текста в описании эпизодов*/
 .col-4 {
@@ -62,13 +63,16 @@ a button {
 	margin-top: 50px;
 }
 .col-4 img {
-	width: 310px;
+	width: 100%;
+	border: 3px solid #FFF;
 }
 .col-3 img {
-	width: 230px;
+	width: 100%;
+	border: 3px solid #FFF;
 }
 .col img {
-	width: 1000px;
+	width: 100%;
+	border: 3px solid #FFF;
 }
 main {
 	text-align: center;

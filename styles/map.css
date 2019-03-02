@@ -41,14 +41,19 @@ img {
 footer {
 	color: white;
 	text-align: center;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
 }
 hr {
 	color: white;
 	background-color: white;
 }
-img {
-	width: 1000px;
+.col img {
+	width: 100%;
+	border: 3px solid #FFF;
 }
 main {
 	text-align: center;
+}
+.container {
+	margin-top: 50px;
 }
