@@ -7,7 +7,6 @@ body {
 }
 nav {
 	font-size: 20px;
-	font-family: Geneva, Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	margin-top: 30px;	
 }
@@ -41,15 +40,12 @@ img {
 footer {
 	color: white;
 	text-align: center;
-	font-family: Geneva, Arial, Helvetica, sans-serif;
 }
 /* Цвет текста в описании эпизодов*/
 .col-4 {
 	color: white;
-	font-family: Geneva, Arial, Helvetica, sans-serif;
 }
 hr {
-	color: white;
 	background-color: white;
 }
 a button {

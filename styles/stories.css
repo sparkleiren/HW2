@@ -1,41 +1,43 @@
+/* Бэкграунд*/
 body {
 	background-image: url(../images/background.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	width: 1000px;
 }
 nav {
 	font-size: 20px;
-	font-family: Geneva, Arial, Helvetica, sans-serif;
 	font-weight: bold;
-	margin-top: 50px;	
+	margin-top: 30px;	
 }
+/* Ссылки в меню. Цвет*/
 nav a {
 	color: #FFF;
 }
-/*Цвет ссылок в меню */
 header {
 	text-align: center;
 	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 }
+/* Лого. Размер*/
 header img {
 	width: 240px;
 }
 h1 {
 	font-size: 28px;
-	color: white;
 	font-weight: 600;
-	font-family: Geneva, Arial, Helvetica, sans-serif;
 	text-align: center;
 }
-h3 {
-	font-size: 15px;
+hr {
+	background-color: white;
+}
+footer {
 	color: white;
-	font-family: Geneva, Arial, Helvetica, sans-serif;
 	text-align: center;
 }
-p {
+.container {
+	margin-top: 50px;
+}
+.col {
 	color: white;
 }

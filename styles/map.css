@@ -7,7 +7,6 @@ body {
 }
 nav {
 	font-size: 20px;
-	font-family: Geneva, Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	margin-top: 30px;	
 }
@@ -41,10 +40,8 @@ img {
 footer {
 	color: white;
 	text-align: center;
-	font-family: Geneva, Arial, Helvetica, sans-serif;
 }
 hr {
-	color: white;
 	background-color: white;
 }
 .col img {
