@@ -3,46 +3,75 @@
 <head>
 	<meta charset="utf-8">
 	<title>Эпизод III: Месть ситхов</title>
-	<link rel="stylesheet" href="../../styles/stories.css">
+	<link rel="stylesheet" href="../../styles/episode3.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body>
-<header><img src="../../images/logo.png">
-<nav><a href="../../index.html">Главная</a>
-<a href="../episodes.html">Эпизоды</a>
-<a href="../heroes.html">Герои</a>
-<a href="../map.html">Карта галактики</a>
-<a href="../stories.html">Истории</a></nav></header>
+	<header>
+		<div class="header">
+			<a href="index.html"><img src="../../images/logo.png"></a>
+				<nav>
+					<a href="../../index.html">Главная</a>
+					<a href="../episodes.html">Эпизоды</a>
+					<a href="../heroes.html">Герои</a>
+					<a href="../map.html">Карта галактики</a>
+					<a href="../stories.html">Истории</a>
+				</nav>
+		</div>
+	</header>
 <main>
-	<h1>Эпизод III: Месть ситхов</h1>
-	<img src="../../images/3big.jpg" title="Эпизод III">
-<p>«Звёздные войны. Эпизод III: Месть си́тхов» (англ. Star Wars. Episode III. Revenge of the Sith) —
-эпический приключенческий фильм 2005 года в жанре космическая опера с элементами мелодрамы, снятый
-режиссёром и сценаристом Джорджем Лукасом, его шестой полнометражный фильм. Это шестой снятый фильм
-в саге «Звёздные войны» и третий в фабуле серии. Это двадцатая полнометражная картина компании Lucasfilm.<br>
-Идёт третий год Войн клонов. Галактическая Республика, некогда бывшая спокойным и гармоничным
-государством, превратилась в поле битвы между армиями клонов, возглавляемых канцлером Палпатином,
-и армадами дроидов, которых ведёт граф Дуку, тёмный лорд ситхов. Республика медленно погружается
-во тьму. Лишь рыцари-джедаи, защитники мира и справедливости, могут противостоять злу, которое
-вскоре поглотит галактику. Но настоящая битва идёт в душе у молодого рыцаря-джедая Энакина,
-который разрывается между долгом джедая и любовью к своей жене, сенатору Падме Амидале. И от того,
-какое чувство в нём победит, зависит будущее всего мира.</p>
-<form name="Оставить отзыв">
-	<h3>Оставить отзыв</h3>
-	<label for="name">Ваше имя</label>
-	<input type="text" size="20" placeholder="Напишите имя" id="name"><br>
-	<label for="feedback">Ваш отзыв</label>
-	<textarea name="Отзыв" cols="100px" rows="5" placeholder="Напишите отзыв" id="feedback"></textarea><br>
-	<label for="rating">Оцените фильм</label>
-	<input type="radio" name="1" id="rating">1
-	<input type="radio" name="2">2
-	<input type="radio" name="3">3
-	<input type="radio" name="4">4
-	<input type="radio" name="5">5<br>
-	<input type="submit" name="Отправить">
-</form>
-</main>
-<hr>
-<footer><p>Copyright &copy; 2018 Star Wars<br>
-Design by Iren</p></footer>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h1>Эпизод III: Месть ситхов</h1>
+					<img src="../../images/kadr44.jpg" title="Эпизод III"><br>
+					«Звёздные войны. Эпизод III: Месть си́тхов» (англ. Star Wars. Episode III. Revenge of the Sith) —
+					эпический приключенческий фильм 2005 года в жанре космическая опера с элементами мелодрамы, снятый
+					режиссёром и сценаристом Джорджем Лукасом, его шестой полнометражный фильм. Это шестой снятый фильм
+					в саге «Звёздные войны» и третий в фабуле серии. Это двадцатая полнометражная картина компании Lucasfilm.<br>
+					Идёт третий год Войн клонов. Галактическая Республика, некогда бывшая спокойным и гармоничным
+					государством, превратилась в поле битвы между армиями клонов, возглавляемых канцлером Палпатином,
+					и армадами дроидов, которых ведёт граф Дуку, тёмный лорд ситхов. Республика медленно погружается
+					во тьму. Лишь рыцари-джедаи, защитники мира и справедливости, могут противостоять злу, которое
+					вскоре поглотит галактику. Но настоящая битва идёт в душе у молодого рыцаря-джедая Энакина,
+					который разрывается между долгом джедая и любовью к своей жене, сенатору Падме Амидале. И от того,
+					какое чувство в нём победит, зависит будущее всего мира.
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<form name="Оставить отзыв">
+						<h3>Оставить отзыв</h3>
+						<label for="name">Имя</label>
+						<input type="text" size="20" placeholder="Напишите имя" id="name"><br>
+						<label for="feedback">Отзыв</label>
+						<textarea name="Отзыв" cols="100px" rows="5" placeholder="Напишите отзыв" id="feedback"></textarea><br>
+						<label for="rating">Оценка</label>
+						<label for="1">1</label>
+						<input type="radio" name="1" id="1" id="rating">
+						<label for="2">2</label>
+						<input type="radio" name="2" id="2">
+						<label for="3">3</label>
+						<input type="radio" name="3" id="3">
+						<label for="4">4</label>
+						<input type="radio" name="4" id="4">
+						<label for="5">5</label>
+						<input type="radio" name="5" id="5"><br>
+						<input type="submit" name="Отправить">
+					</form>
+				</div>
+			</div>
+		</div>
+	</main>
+	<hr>
+	<footer>
+		<div class="footer">
+			Copyright &copy; 2018 Star Wars<br>
+			Design by Iren
+		</div>
+	</footer>
 </body>
 </html>
