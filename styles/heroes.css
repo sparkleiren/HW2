@@ -53,3 +53,12 @@ hr {
 	border-radius: 10px;
 	width: 200px;
 }
+.row-hero img {
+	float: left;
+	margin-right: 20px;
+}
+@media screen and (max-width: 640px) {
+	.row-hero img {
+		float: none;
+	}
+}
