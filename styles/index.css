@@ -42,7 +42,7 @@ footer {
 	text-align: center;
 }
 /* Цвет текста в описании эпизодов*/
-.col-4 {
+.col-lg-4 {
 	color: white;
 }
 hr {
@@ -58,13 +58,15 @@ a button {
 .container {
 	margin-top: 50px;
 }
-.col-4 img {
+.col-lg-4 img {
 	width: 100%;
 	border: 3px solid #FFF;
+	margin-top: 30px;
 }
-.col-3 img {
+.col-lg-3 img {
 	width: 100%;
 	border: 3px solid #FFF;
+	margin-top: 30px;
 }
 .col img {
 	width: 100%;
